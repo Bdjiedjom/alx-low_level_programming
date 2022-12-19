@@ -10,3 +10,5 @@ To compile, run :$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_
 to execute, run :$ ./0-positive_or_negative
 
 =====
+Task  2: The last digit
+
