@@ -16,6 +16,6 @@ void print_rev(char *s)
 	len = strlen(s);
 	for (i = len; i = 0; i--)
 	{
-		printf(str[i]);
+		_putchar(str[i]);
 	}
 }
