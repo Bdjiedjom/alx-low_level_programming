@@ -6,7 +6,7 @@
  * Return: 1 if c is letter 0 otherwise
  */
 
-int _isaplha(int c)
+int _isalpha(int c)
 {
 	if (c >= 'a' && c <= 'Z')
 	{
