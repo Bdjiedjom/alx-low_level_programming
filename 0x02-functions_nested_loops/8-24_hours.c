@@ -13,7 +13,7 @@ void jack_bauer(void)
 	{
 		if (i == '2')
 		{
-			hrs_max = '4';
+			hrs_max = '3';
 		}
 		else
 		{
