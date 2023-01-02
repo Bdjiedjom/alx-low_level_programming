@@ -2,25 +2,27 @@
 
 /**
  * jack_bauer - prints every minute of the  day
- * Return: always 0
+ * Return: void
  */
 
 void jack_bauer(void)
 {
 	int i, j, k, l;
-	int counter;
 
-	counter = 0;
-	while (counter <= 1440)
+	for (i = '0'; i <= '2'; i++)
 	{
-		for (i = '0'; i <= '2'; i++)
+		for (j = '0'; j <= '3'; j++)
 		{
-			for (j = '0'; j <= '3'; j++)
-		{
-				for (k = '0'; k <= '5'; k++)
+			for (k = '0'; k <= '5'; k++)
+			{
+				l = '0';
+				while (l <= '9')
 				{
-					l = '0';
-					while (l <= '9')
+					if (j == '3' && l == '9')
+					{
+						break;
+					}
+					else
 					{
 						_putchar(i);
 						_putchar(j);
@@ -33,6 +35,6 @@ void jack_bauer(void)
 				}
 			}
 		}
-		counter++;
 	}
+
 }
