@@ -20,6 +20,12 @@ void jack_bauer(void)
 				{
 					if (j == '3' && l == '9')
 					{
+						_putchar(i);
+                                                _putchar(j);
+                                                _putchar(':');
+                                                _putchar(k);
+                                                _putchar(l);
+                                                _putchar('\n');
 						break;
 					}
 					else
