@@ -16,19 +16,24 @@ void times_table(void)
 			prod = i * j;
 			tens = prod / 10;
 			unit = prod % 10;
-			if (j != 9)
+			if (j == 0)
 			{
-				_putchar(tens + '0');
-				_putchar(unit + '0');
+				_putchar('0');
+			}
+			else if (prod < 10)
+			{
 				_putchar(',');
 				_putchar(' ');
+				_putchar(unit + '0')
 			}
 			else
 			{
+				_putchar(',');
+				_putchar(' ');
 				_putchar(tens + '0');
 				_putchar(unit + '0');
-				_putchar('\n');
 			}
+			_putchar('\n');
 		}
 	}
 }
